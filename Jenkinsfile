@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-              echo 'check automatic jenkins run'
+                echo 'check automatic jenkins run'
             }
         }
         stage('Create Hello File') {
